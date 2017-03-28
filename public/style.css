@@ -1,0 +1,32 @@
+body{
+  background-color:#84A3E1;
+  color:white;
+  font-family: Courier;
+  text-align: center;
+}
+
+a {
+  color:#A9F7B8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+ul {
+  background-color: #E7E767;
+}
+
+ul li {
+  color: #F95858;
+  list-style: none;
+}
+
+ul li a {
+  color: #D54C4C;
+}
+
+.label {
+  color: #475050;
+}

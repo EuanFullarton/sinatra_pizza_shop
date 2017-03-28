@@ -1,7 +1,7 @@
-<p>Name: <%= @pizza.pretty_name() %></p>
-<p>Topping: <%= @pizza.topping %> </p>
-<p>Quantity: <%= @pizza.quantity %> </p> 
-<p>Order price: £<%= @pizza.total() %> </p>
+<p><span class = "label">Name:</span> <%= @pizza.pretty_name() %></p>
+<p><span class = "label">Topping:</span> <%= @pizza.topping %> </p>
+<p><span class = "label">Quantity:</span> <%= @pizza.quantity %> </p> 
+<p><span class = "label">Order price:</span> £<%= @pizza.total() %> </p>
 
 <form method = "get" action = "/pizzas/<%= @pizza.id %>/edit">
 <input type = "submit" value = "Edit Order"/>
